@@ -1,0 +1,106 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #black;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+form {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	resize: none;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.symptomm{
+    display: grid;
+    place-items: center;
+}
+.symptom{
+    display: grid;
+    place-items: center;
+}
+.symptom h1{
+	color:white;
+	margin-bottom: 1rem;
+}
+
+.nav1{
+	
+}
+.content{
+	margin-top: 12rem;
+}
+.tt{
+	display: grid;
+    place-items: center;
+	gap:1rem;
+	padding:2rem 4rem;
+}
+
+.ss,.sss{
+	display: grid;
+	place-items: center;
+}
+.ss{
+	height:60vh;
+}
+.sss{
+	background: blueviolet;
+	border-radius: 1rem;
+	color:white;
+	padding:2rem 0 0 0;
+	width:30vw;
+
+}
+.sss h2{
+width: 100%;
+border-radius: 1rem;
+margin-bottom: 1rem;
+padding:0 2rem;
+
+display: grid;
+place-items: center;
+}
+.sss .triple{
+	background: white;
+	width: 100%;
+padding:2rem;
+height: 100%;
+border-radius:0 0 1rem 1rem;
+color:black;
+display: grid;
+place-items: center;
+font-weight: 600;
+font-size: 1.1rem;
+}

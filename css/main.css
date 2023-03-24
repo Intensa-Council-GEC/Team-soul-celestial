@@ -1,0 +1,19 @@
+.box1{
+    background: lavender;
+    color: blueviolet;
+    font-size: 2rem;
+    font-weight: 700;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-transform: capitalize;
+}
+.btnm{
+    margin: 1rem;
+}
+.btnm a{
+    text-decoration: inherit;
+    color: blueviolet;
+}

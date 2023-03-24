@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    /* change */
+    background: #000;
+    min-height: 110vh;
+   
+}
+
+.login {
+    /* min-height: 30vh; */
+    /* display: flex; */
+    justify-content: center;
+    background: white;
+}
+
+.login .title {
+    font-size: 1.8rem;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.log .btnn a {
+    background: black;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 2rem;
+    color: white;
+}
+
+.nav1 {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+.nav1 .logo {
+    position: relative;
+    color: white;
+    /* change */
+    font-size: 1.5rem;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.nav1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav1 ul li {
+    list-style-type: none;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 0.5rem;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.nav1.sticky {
+    background: white;
+}
+
+.nav1.sticky .logo {
+    color: #000;
+}
+
+.nav1.sticky ul li a {
+    color: black;
+}
+
+.content {
+    margin-top: 10vh;
+    color: white;
+}
+
+.content {
+    color: white;
+}
+
+.content table {
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    max-width: fit-content;
+}
+
+.content button {
+    background-color: mintcream;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    position: relative;
+    height: 25px;
+    max-width: fit-content;
+    margin-right: 25px;
+}
+
+.content .table1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    max-width: fit-content;
+}
+.content{
+    display:grid;
+    place-items:center;
+    color:black;
+    height:80vh;
+}
+.tst{
+    background: white;
+    width:50vw;
+    display:grid;
+    place-items:center;
+    border-radius: 1rem;
+    padding:1rem;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.form-group{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width:30vw;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.boxx,.sss{
+    margin: 1rem 0;
+}
+.sssub{
+    display:grid;
+    place-items:center;
+}
+
+button[type=submit]{
+    background: blueviolet;
+    color:white;
+    padding:0 1rem;
+    font-size: 1.2rem;
+}

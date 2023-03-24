@@ -1,0 +1,52 @@
+:root{
+    --c-orange1: #fd5901;
+    --c-boxes: #202528;
+}
+.form .title.fg::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 250px;
+    height: 3px;
+    background: var(--c-text);
+}
+
+.form .title.reset::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 230px;
+    height: 3px;
+    background: var(--c-text);
+}
+
+.container.m{
+    width: 25vw;
+}
+.container.m .ssbtn .otp{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--c-orange1);
+    border: 2px solid var(--c-orange1);
+    border-radius: 0.75rem;
+    font-size:larger;
+    font-weight: 500;
+    color: white;
+    box-shadow: 0 0 1rem rgb(36, 36, 36);
+}
+.container.rrr .ssbtn .otp{
+    margin: 1rem 0 1.5rem 0;
+    padding: 0.5rem;
+    background-color: var(--c-orange1);
+    border: 2px solid var(--c-orange1);
+    border-radius: 0.75rem;
+    font-size:larger;
+    font-weight: 500;
+    color: white;
+    box-shadow: 0 0 1rem rgb(36, 36, 36);
+}
+.container.rrr .pp{
+    margin: 0.5rem 0 2rem 0;
+}

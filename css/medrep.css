@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+}
+
+.medminitable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+
+.medminitable .title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background: blueviolet;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+table th {
+    padding: 0.5rem;
+    text-transform: capitalize;
+}

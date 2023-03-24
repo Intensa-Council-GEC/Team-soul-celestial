@@ -1,0 +1,57 @@
+.content {
+    display: grid;
+    place-items: center;
+    height: 60vh;
+}
+
+.minbox {
+    display: grid;
+    place-items: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.viewtable {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.viewtable .title.one {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+table th {
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+}
+
+.title a {
+    text-decoration: none;
+    background: blueviolet;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+table {
+    font-size: 1.1rem;
+}
+.purplebtn a{
+    background: blueviolet;
+    padding:0.5rem;
+border-radius: 0.5rem;
+color: white;
+text-decoration: none;
+text-transform: capitalize;
+font-size: 1.1rem;
+
+}

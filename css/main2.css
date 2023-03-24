@@ -1,0 +1,34 @@
+.btnm a {
+    background: blueviolet;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid #8a2ce2;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.2rem 0.5rem;
+    margin: 2rem 0rem;
+}
+
+.btnm {
+    margin: 1rem;
+}
+
+.contt {
+    width: 90vw;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
+
+.tt {
+    width: 50vw;
+    background: rgb(182, 144, 217);
+    border-radius: 1rem;
+    margin-left: 10rem;
+    display: grid;
+    place-items: center;
+}
+
+.sts {
+    border-radius: 0rem;
+}

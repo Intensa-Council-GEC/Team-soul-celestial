@@ -1,0 +1,23 @@
+.videocall{
+    display:grid;
+    place-items: center;
+    margin: 4rem;
+    /* background: white; */
+}
+.mainbox{
+    display:grid;
+    place-items: center;
+}
+.transbox{
+    background: none;
+}
+.ll{
+    background: blueviolet;
+    z-index:20;
+    color:white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.content{
+    height: 80vh;
+}
